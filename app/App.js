@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
-  ActivityIndicator, Alert, FlatList, Image, Platform, Pressable, SafeAreaView, ScrollView,
+  ActivityIndicator, Alert, AppState, FlatList, Image, Platform, Pressable, RefreshControl, SafeAreaView, ScrollView,
   StatusBar, StyleSheet, Text, TextInput, View,
 } from 'react-native';
 import * as WebBrowser from 'expo-web-browser';
@@ -46,6 +46,8 @@ export default function App() {
   const [emailNote, setEmailNote] = useState('');
   const [category, setCategory] = useState('All');
   const [live, setLive] = useState(false);
+  const [refreshing, setRefreshing] = useState(false);
+  const refresh = async () => { setRefreshing(true); await Promise.all([loadCart(), loadOrders()]); setRefreshing(false); };
   const channelRef = useRef(null);
   const user = session?.user || null;
 
@@ -75,10 +77,17 @@ export default function App() {
     if (error) Alert.alert('Orders', error.message); else setOrders(data || []);
   }, [user?.id]);
 
+  // Refetch whenever the app returns to the foreground (belt and braces next to realtime).
+  useEffect(() => {
+    const sub = AppState.addEventListener('change', (st) => { if (st === 'active') { loadCart(); } });
+    return () => sub.remove();
+  }, [loadCart]);
+
   // Cart: load once, then follow the same table the website writes to, in realtime.
   useEffect(() => {
     if (channelRef.current) { supabase.removeChannel(channelRef.current); channelRef.current = null; setLive(false); }
     if (!user) { setCart({}); setOrders(null); return; }
+    if (session?.access_token) supabase.realtime.setAuth(session.access_token);
     loadCart(); loadOrders();
     channelRef.current = supabase
       .channel('cart:' + user.id)
@@ -161,6 +170,7 @@ export default function App() {
           numColumns={2}
           columnWrapperStyle={{ gap: 12 }}
           contentContainerStyle={{ padding: 16, gap: 12, paddingBottom: 96 }}
+          refreshControl={<RefreshControl refreshing={refreshing} onRefresh={refresh} colors={[C.green]} tintColor={C.green} />}
           ListHeaderComponent={
             <View style={{ gap: 12 }}>
               <View>
@@ -198,7 +208,7 @@ export default function App() {
       )}
 
       {tab === 'cart' && (
-        <ScrollView contentContainerStyle={{ padding: 16, gap: 12, paddingBottom: 96 }}>
+        <ScrollView contentContainerStyle={{ padding: 16, gap: 12, paddingBottom: 96 }} refreshControl={<RefreshControl refreshing={refreshing} onRefresh={refresh} colors={[C.green]} tintColor={C.green} />}>
           <Text style={s.h1}>Your cart</Text>
           {!user && <Text style={s.lede}>Sign in to see the cart you built on the website.</Text>}
           {user && !lines.length && <Text style={s.lede}>Your cart is empty. Add something from the shop, here or on the website.</Text>}
@@ -218,7 +228,7 @@ export default function App() {
           {lines.length > 0 && (
             <Pressable onPress={() => setTab('checkout')} style={s.primary}><Text style={s.primaryText}>Checkout</Text></Pressable>
           )}
-          {user && <Text style={s.hint}>{live ? '● Live: changes made on the website appear here instantly.' : 'Connecting live updates…'}</Text>}
+          {user && <Text style={s.hint}>{live ? '● Live: changes made on the website appear here instantly.' : 'Live updates connecting… pull down to refresh.'}</Text>}
         </ScrollView>
       )}
 
@@ -257,7 +267,7 @@ export default function App() {
 
       <View style={s.tabs}>
         {[['shop', 'Shop'], ['cart', count ? `Cart (${count})` : 'Cart'], ['orders', 'Orders']].map(([k, label]) => (
-          <Pressable key={k} onPress={() => { if (k === 'orders') loadOrders(); setTab(k); }} style={[s.tab, tab === k && s.tabOn]}>
+          <Pressable key={k} onPress={() => { if (k === 'orders') loadOrders(); if (k === 'cart') loadCart(); setTab(k); }} style={[s.tab, tab === k && s.tabOn]}>
             <Text style={[s.tabText, tab === k && { color: C.green }]}>{label}</Text>
           </Pressable>
         ))}
