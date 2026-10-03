@@ -1,0 +1,48 @@
+# HNG 15 project log — Bayode Manuel (Zedu: Senior Man, Team Zedu-quetzal)
+
+Kept by Claude Code across sessions. Newest first.
+
+## 3 October 2026 — Task 3 (mobile app) done, Task 2 submitted
+
+- **Task 3 built and tested.** Expo app in `app/`, same Supabase project as the web shop, Google
+  sign-in via PKCE with `basira://auth/callback`, cart moved to a new `cart_items` table with RLS
+  and realtime. Web shop updated to use the same table for signed-in users. Release APK built
+  locally (JDK 17 + Android SDK), installed on the user's Android phone, two-way sync confirmed.
+  APKs: `Downloads\BasiraProvisions-v1.0.0.apk`, `v1.0.1.apk` (adds refetch on tab/foreground,
+  pull-to-refresh, explicit realtime auth).
+- **Demo video** (PC and phone side by side, 38 s) at
+  https://drive.google.com/file/d/1MHg4TJDt7C8w6MJfFkKaVmj4UB9uZZDt/view — built from the user's
+  two clips with ffmpeg; also linked in README.
+- **Submission form for Task 3 not yet seen in Zedu** as of 13:00. Mark said on the 2 Oct call it
+  would be dropped in the announcements channel after the Q&A; deadline Monday 6 Oct 11:59 PM.
+- **Task 2 form submitted** (Task Two - Individual Task (Shop Website)): email, Zedu username
+  Senior Man, team Zedu-quetzal, live link, Supabase, Mailgun yes, Claude / Claude Code, lost
+  count, hardest part text. No receipt email; confirmation page was observed and is logged in the
+  session transcript. Google consent screen branding completed; Publish button is unlocked but the
+  user must click it (Google Cloud → Auth Platform → Audience).
+- **Mailgun**: account activated, sandbox domain, sending key as Pages secrets, owner email is an
+  authorized recipient. Gmail files sandbox mail in Spam (DMARC quarantine). Confirmed delivered.
+- **Real product photos** from Wikimedia Commons (attribution in web repo `docs/IMAGES.md`).
+- **Zedu contribution**: PRs #1 (contributors line) and #2 (one-word change, later extended with a
+  greeting + empty states feature on the Get started page) in HNG-Zedu-Quetzal/zedu-fe were closed
+  by team lead Summiedev (Mela on Telegram): wait for her process before opening PRs. Branches
+  `add-senior-man-quetzal` and `one-word-change` remain on seniormanvic419-netizen/zedu-fe. The
+  earlier Heron PR #6 is in the wrong team's repo and should be closed by the user.
+- **Call transcript** (2 Oct Zoom Q&A, transcribed locally with faster-whisper):
+  `Downloads\HNG15_call_2026-10-02_transcript.txt`.
+
+## 2 October 2026 — Task 2 shop built, Task 1 done earlier
+
+- Task 2: Basira Provisions, https://basira-provisions.pages.dev, repo hng-stage2-shop. Supabase
+  schema + RLS, Google OAuth client, Pages Function for Mailgun, 17 tests, PRD + AGENTS.md.
+- Task 1: Ledger to-do app, https://hng-stage1-todo.pages.dev, repo hng-stage1-todo. Form
+  submission status unconfirmed.
+
+## Open items
+
+1. Submit Task 3 form (needs the link from Zedu).
+2. Confirm Task 1 form was submitted.
+3. Google consent screen: click Publish so graders with any Google account can sign in.
+4. Close Heron PR #6; reopen Quetzal PRs when Mela gives the go-ahead.
+5. Name spelling: Telegram shows "Baryorde Manuel", everything else "Bayode Manuel".
+6. Revoke the Cloudflare API token pasted in chat once deployments are finished.
