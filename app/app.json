@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Basira Provisions",
+    "slug": "basira-provisions",
+    "scheme": "basira",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#f7f6f2",
+    "splash": { "image": "./assets/splash-icon.png", "resizeMode": "contain", "backgroundColor": "#1b5e3b" },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "dev.basira.provisions" },
+    "android": {
+      "package": "dev.basira.provisions",
+      "adaptiveIcon": {
+        "backgroundColor": "#1b5e3b",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "intentFilters": [
+        { "action": "VIEW", "autoVerify": false, "data": [{ "scheme": "basira", "host": "auth" }], "category": ["BROWSABLE", "DEFAULT"] }
+      ]
+    },
+    "web": { "favicon": "./assets/favicon.png" },
+    "plugins": ["expo-web-browser", "expo-secure-store", "expo-status-bar"]
+  }
+}
