@@ -13,8 +13,11 @@ Kept by Claude Code across sessions. Newest first.
 - **Demo video** (PC and phone side by side, 38 s) at
   https://drive.google.com/file/d/1MHg4TJDt7C8w6MJfFkKaVmj4UB9uZZDt/view — built from the user's
   two clips with ffmpeg; also linked in README.
-- **Submission form for Task 3 not yet seen in Zedu** as of 13:00. Mark said on the 2 Oct call it
-  would be dropped in the announcements channel after the Q&A; deadline Monday 6 Oct 11:59 PM.
+- **Task 3 form: confirmed NOT posted as of 13:30.** Read every link in Zedu #announcement from the
+  browser: only the Task 2 form, the Lesson 3 call recording (75 MB mp4, the "HNG15 - Lesson 3"
+  card is its file name), an audio recording and one more large Drive file. No written task, no form.
+  Mark's 9:51 message today: the Zedu PR "is not a requirement"; what matters is having built the
+  mobile app; everyone should join #zedu-contributors. Deadline Monday 6 Oct 11:59 PM.
 - **Task 2 form submitted** (Task Two - Individual Task (Shop Website)): email, Zedu username
   Senior Man, team Zedu-quetzal, live link, Supabase, Mailgun yes, Claude / Claude Code, lost
   count, hardest part text. No receipt email; confirmation page was observed and is logged in the
