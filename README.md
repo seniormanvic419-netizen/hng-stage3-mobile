@@ -4,8 +4,10 @@ The Android/iOS companion to the shop at https://basira-provisions.pages.dev. Sa
 backend, same Google account, same cart: add an item on the website and it appears in the app's
 cart within a second, and the other way round.
 
+- **Demo video (web + phone side by side):** https://drive.google.com/file/d/1MHg4TJDt7C8w6MJfFkKaVmj4UB9uZZDt/view?usp=sharing
 - Web shop repo: https://github.com/seniormanvic419-netizen/hng-stage2-shop
 - App code: `app/` (Expo / React Native, JavaScript, no navigation library)
+- Tested on: Android phone, sideloaded release APK (v1.0.1), Google sign-in, realtime cart sync both ways
 
 ## How it is wired
 
