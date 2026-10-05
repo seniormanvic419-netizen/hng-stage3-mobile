@@ -14,6 +14,7 @@ Kept by Claude Code across sessions. Newest first.
 - Mela 05:53: dev branch synced with upstream, everyone can clone dev and start the team task.
 - Opened PR #3 https://github.com/HNG-Zedu-Quetzal/zedu-fe/pull/3 (contributors line, branch add-senior-man-quetzal-v2 -> dev) with the full template. One-word-only branch kept in reserve.
 - 5 Oct evening: user accepted the repo collaborator invite; branch feat/QZ-002-quetzal-contributor-update pushed to HNG-Zedu-Quetzal/zedu-fe. Mela's rules: state the ticket ID first (done, QZ-002); PR goes to zedu-hng/zedu-fe dev from the team-repo branch, not from a fork (PR #3 from the fork was closed for that reason).
+- PR #286 opened on zedu-hng/zedu-fe (feat(QZ-002), from HNG-Zedu-Quetzal branch into dev): https://github.com/zedu-hng/zedu-fe/pull/286. This is the team-task PR link for the Task 3 form.
 - scrcpy installed via winget (%LOCALAPPDATA%MicrosoftWinGetPackagesGenymobile.scrcpy_*scrcpy-win64-v4.1)
   so the phone can be mirrored on the PC and one continuous Win+Alt+R recording shows both.
 
