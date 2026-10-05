@@ -2,6 +2,19 @@
 
 Kept by Claude Code across sessions. Newest first.
 
+## 5 October 2026 — Task 3 form posted, GitHub invite arrived, team task opened
+
+- Mela posted the Task 3 submission form (4 Oct 22:11):
+  https://docs.google.com/forms/d/e/1FAIpQLSeAkkPmPHtuHhP7JIUnXmMxv4lxARw1GOjvuWMAdxpAqX5CBQ/viewform
+  Required: APK download link (Drive), repo link, and ONE continuous video (no edited clips) showing:
+  web sign-in, add item on web, open mobile app, log in same account, item visible in mobile cart,
+  add another item on mobile, back to web, item visible there. Both directions, physical device.
+  Also required: GitHub PR link of the team contribution.
+- GitHub org invite from Summiedev received 05:28; user must accept it.
+- Mela 05:53: dev branch synced with upstream, everyone can clone dev and start the team task.
+- scrcpy installed via winget (%LOCALAPPDATA%MicrosoftWinGetPackagesGenymobile.scrcpy_*scrcpy-win64-v4.1)
+  so the phone can be mirrored on the PC and one continuous Win+Alt+R recording shows both.
+
 ## 3 October 2026 — Task 3 (mobile app) done, Task 2 submitted
 
 - **Task 3 built and tested.** Expo app in `app/`, same Supabase project as the web shop, Google
