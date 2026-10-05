@@ -58,11 +58,13 @@ Kept by Claude Code across sessions. Newest first.
 - Task 1: Ledger to-do app, https://hng-stage1-todo.pages.dev, repo hng-stage1-todo. Form
   submission status unconfirmed.
 
-## Open items
+## Open items (as of 5 Oct 2026, evening)
 
-1. Submit Task 3 form (needs the link from Zedu).
-2. Confirm Task 1 form was submitted.
-3. Google consent screen: click Publish so graders with any Google account can sign in.
-4. Close Heron PR #6; reopen Quetzal PRs when Mela gives the go-ahead.
-5. Name spelling: Telegram shows "Baryorde Manuel", everything else "Bayode Manuel".
-6. Revoke the Cloudflare API token pasted in chat once deployments are finished.
+1. PR #286 on zedu-hng/zedu-fe awaits Mela's (Summiedev) review and merge. Nothing to do; optionally post the link in Zedu-quetzal.
+2. Confirm Task 1 form was submitted (never confirmed).
+3. Google consent screen for the shop: click Publish so any Google account can sign in (user's click).
+4. Close the old Heron PR #6 (wrong team) and the stale fork branches on seniormanvic419-netizen/zedu-fe.
+5. Name spelling: Telegram and GitHub display show "Baryorde Manuel", forms and contributors entry say "Bayode Manuel".
+6. Revoke the Cloudflare API token pasted in chat.
+7. Side project: n8n WhatsApp credential still needs Access Token + Business Account ID from the Meta app
+   "logistics & shipment" (ID 1102716399015231), WhatsApp > API Setup. Portfolio "Voom" exists.
