@@ -12,6 +12,7 @@ Kept by Claude Code across sessions. Newest first.
   Also required: GitHub PR link of the team contribution.
 - GitHub org invite from Summiedev received 05:28; user must accept it.
 - Mela 05:53: dev branch synced with upstream, everyone can clone dev and start the team task.
+- Opened PR #3 https://github.com/HNG-Zedu-Quetzal/zedu-fe/pull/3 (contributors line, branch add-senior-man-quetzal-v2 -> dev) with the full template. One-word-only branch kept in reserve.
 - scrcpy installed via winget (%LOCALAPPDATA%MicrosoftWinGetPackagesGenymobile.scrcpy_*scrcpy-win64-v4.1)
   so the phone can be mirrored on the PC and one continuous Win+Alt+R recording shows both.
 
