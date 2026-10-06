@@ -2,6 +2,11 @@
 
 Kept by Claude Code across sessions. Newest first.
 
+## 6 October 2026 — PRs redone on Mela's instruction
+
+- Mentors told Mela not to update members' branches; everyone must close their PR and open a new one from the synced dev (team dev = upstream dev 7a096ef at 15:40). PR #286 was 54 commits behind and failed the 'PR template' check (two boxes unticked; CI requires all 11 template boxes ticked) and 'Relay fork build' (fork build disabled in the team repo, team-lead setting).
+- New branch feat/QZ-002-add-bayode-manuel-contributor pushed to HNG-Zedu-Quetzal at 15:42, based on 7a096ef, one line, author Bayode Manuel. New PR body ticks all 11 boxes (verified against .github/pull_request_template.md). #286 to be closed by the user once the new PR exists.
+
 ## 5 October 2026 — Task 3 form posted, GitHub invite arrived, team task opened
 
 - Mela posted the Task 3 submission form (4 Oct 22:11):
