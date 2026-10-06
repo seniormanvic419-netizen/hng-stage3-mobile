@@ -7,6 +7,7 @@ Kept by Claude Code across sessions. Newest first.
 - Mentors told Mela not to update members' branches; everyone must close their PR and open a new one from the synced dev (team dev = upstream dev 7a096ef at 15:40). PR #286 was 54 commits behind and failed the 'PR template' check (two boxes unticked; CI requires all 11 template boxes ticked) and 'Relay fork build' (fork build disabled in the team repo, team-lead setting).
 - New branch feat/QZ-002-add-bayode-manuel-contributor pushed to HNG-Zedu-Quetzal at 15:42, based on 7a096ef, one line, author Bayode Manuel. New PR body ticks all 11 boxes (verified against .github/pull_request_template.md). #286 to be closed by the user once the new PR exists.
 - 15:55: new PR #462 created on zedu-hng/zedu-fe from the team branch (right Chrome profile this time; the extension had reconnected from the goodborbor profile after a Chrome restart): https://github.com/zedu-hng/zedu-fe/pull/462. Supersedes #286.
+- 16:03: #286 closed by the user. #462: all checks green (PR rules, Preview status, Relay fork build, Check lead approval, Route to team lead), review requested from Summiedev and prince-tiwaa. Nothing left on our side; waiting for merge.
 
 ## 5 October 2026 — Task 3 form posted, GitHub invite arrived, team task opened
 
