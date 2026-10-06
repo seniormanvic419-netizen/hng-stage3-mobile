@@ -4,6 +4,8 @@ Kept by Claude Code across sessions. Newest first.
 
 ## 6 October 2026 — PRs redone on Mela's instruction
 
+
+- Ticket process guide received (docs/Ticket_Guide_Stage1.pdf, by Bigtiffs): 1) copy the ticket template into a Google Doc, 2) fill every section (Title "[Type] desc", name, Zedu username, team, summary, why + proof, details, repro steps, acceptance checklist, links), 3) share "Anyone with the link, Viewer", 4) DM bigtiffs on Zedu with doc link + Zedu username + team, 5) after approval create the issue in the PRODUCTION repo under https://github.com/zeduchat (not the team or staging repo), include team name + Zedu username; Mark reviews next. This is how new Zedu work (Task 4 onwards) gets ticketed.
 - Mentors told Mela not to update members' branches; everyone must close their PR and open a new one from the synced dev (team dev = upstream dev 7a096ef at 15:40). PR #286 was 54 commits behind and failed the 'PR template' check (two boxes unticked; CI requires all 11 template boxes ticked) and 'Relay fork build' (fork build disabled in the team repo, team-lead setting).
 - New branch feat/QZ-002-add-bayode-manuel-contributor pushed to HNG-Zedu-Quetzal at 15:42, based on 7a096ef, one line, author Bayode Manuel. New PR body ticks all 11 boxes (verified against .github/pull_request_template.md). #286 to be closed by the user once the new PR exists.
 - 15:55: new PR #462 created on zedu-hng/zedu-fe from the team branch (right Chrome profile this time; the extension had reconnected from the goodborbor profile after a Chrome restart): https://github.com/zedu-hng/zedu-fe/pull/462. Supersedes #286.
