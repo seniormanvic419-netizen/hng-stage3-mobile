@@ -65,13 +65,22 @@ Kept by Claude Code across sessions. Newest first.
 - Task 1: Ledger to-do app, https://hng-stage1-todo.pages.dev, repo hng-stage1-todo. Form
   submission status unconfirmed.
 
-## Open items (as of 5 Oct 2026, evening)
+## Open items (as of 6 Oct 2026, 16:10)
 
-1. PR #286 on zedu-hng/zedu-fe awaits Mela's (Summiedev) review and merge. Nothing to do; optionally post the link in Zedu-quetzal.
-2. Confirm Task 1 form was submitted (never confirmed).
-3. Google consent screen for the shop: click Publish so any Google account can sign in (user's click).
-4. Close the old Heron PR #6 (wrong team) and the stale fork branches on seniormanvic419-netizen/zedu-fe.
-5. Name spelling: Telegram and GitHub display show "Baryorde Manuel", forms and contributors entry say "Bayode Manuel".
-6. Revoke the Cloudflare API token pasted in chat.
-7. Side project: n8n WhatsApp credential still needs Access Token + Business Account ID from the Meta app
+1. PR #462 on zedu-hng/zedu-fe awaits merge by Mela (Summiedev) or prince-tiwaa. All checks green. No need to message her.
+2. Task 4: Mela said "hold on"; nothing posted yet. Watch Zedu #announcement and the team group.
+3. Confirm Task 1 form was submitted (never confirmed).
+4. Google consent screen for the shop: click Publish so any Google account can sign in (user's click).
+5. Close the old Heron PR #6 (wrong team) and prune stale fork branches on seniormanvic419-netizen/zedu-fe.
+6. Name spelling: Telegram and GitHub display show "Baryorde Manuel", forms and contributors entry say "Bayode Manuel".
+7. Revoke the Cloudflare API token pasted in chat.
+8. Side project: n8n WhatsApp credential still needs Access Token + Business Account ID from the Meta app
    "logistics & shipment" (ID 1102716399015231), WhatsApp > API Setup. Portfolio "Voom" exists.
+
+## Working notes for the next session
+
+- Chrome extension: after a Chrome restart it may connect from the goodborbor profile. Run list_connected_browsers
+  and select the seniormanvic419 one (check by opening Gmail) before any GitHub work.
+- Zedu PR rules (from .github/workflows/pr-rules.yml): single author per PR, branch from synced dev, PR to zedu-hng/zedu-fe dev
+  from the team repo branch (not a personal fork), claim a QZ-xxx ticket in the group first, tick all 11 template boxes.
+- User rules: ask before any public action; plain paste-ready text, no blockquotes; no Co-Authored-By lines.
