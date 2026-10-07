@@ -11,6 +11,7 @@ Kept by Claude Code across sessions. Newest first.
 - Mela 09:02: only Kon-vos-lee's ticket approved so far; Mela asked mentors to clarify. Ticket approvals come by Zedu DM from Bigtiffs, then the person creates the GitHub issue. Anniedevkiller's ticket still waiting after a day.
 - Mela told Gift "Fix your commit message" (Gift re-opened as #607). Our #462 commit message passes commitlint (checked). #462 is now "dirty" (conflicts with dev after other contributor entries landed): needs dev merged in, normal push.
 - Mela's own PR: zedu-hng #549 (23:09, 6 Oct). Michael's #177 updated and green, waiting lead approval.
+- 10:50: Mela asked everyone (and the user directly) to "update your branch" before she approves. Merged upstream/dev into feat/QZ-002-add-bayode-manuel-contributor, resolved the one-line conflict (kept Michael's entry then ours), merge commit authored by Bayode Manuel, normal push 5b57250. Mela's full Lesson 4 text: max 4 points each, 60 team points to survive, top team wins N50k, each team fires its 10 least productive members; tickets must be pre-vetted by Tifanni (Bigtiffs) then approved on GitHub before work.
 
 ## 6 October 2026 — PRs redone on Mela's instruction
 
