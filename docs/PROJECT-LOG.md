@@ -2,6 +2,16 @@
 
 Kept by Claude Code across sessions. Newest first.
 
+## 7 October 2026 — week 2 tasks clarified (read from the Zedu-quetzal Telegram chat via Chrome, Omni profile)
+
+- Scoring (Kon-vos-lee, 09:03): Task 1 = 1 point, Task 2 = 1 point, Task 3 = 2 points, max 4 per person; 5 helpers can earn a 5th point; the team needs 60 points total to survive. Tracking sheet: https://docs.google.com/spreadsheets/d/1g7__mNeJv-VhSAob6985ykpOpp-pNTN5sTO5wAxphFU/edit
+- Task 1 (mobile): every member sets up Zedu Mobile locally (zedu-hng/zedu-mobile, team fork HNG-Zedu-Quetzal/zedu-mobile), runs it on their own phone, records evidence. Team part: one shared small mobile fix made by one person after Bigtiffs pre-approval + GitHub ticket approval; everyone pulls it and shows before/after. Michael is writing a Windows setup guide (lighter than full Android Studio); .env values needed from Mela.
+- Task 2 (desktop): same for zedu-hng/zedu-desktop (fork HNG-Zedu-Quetzal/zedu-desktop); one shared desktop fix, may be merged into central; a short team setup guide counts as helping.
+- Task 3 (ticketing): one small improvement each, explain why, Bigtiffs pre-approval, then GitHub ticket; PR optional. This is the ticket already drafted (thread timestamp doc).
+- Mela 09:02: only Kon-vos-lee's ticket approved so far; Mela asked mentors to clarify. Ticket approvals come by Zedu DM from Bigtiffs, then the person creates the GitHub issue. Anniedevkiller's ticket still waiting after a day.
+- Mela told Gift "Fix your commit message" (Gift re-opened as #607). Our #462 commit message passes commitlint (checked). #462 is now "dirty" (conflicts with dev after other contributor entries landed): needs dev merged in, normal push.
+- Mela's own PR: zedu-hng #549 (23:09, 6 Oct). Michael's #177 updated and green, waiting lead approval.
+
 ## 6 October 2026 — PRs redone on Mela's instruction
 
 
