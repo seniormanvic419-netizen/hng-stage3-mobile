@@ -12,6 +12,7 @@ Kept by Claude Code across sessions. Newest first.
 - Mela told Gift "Fix your commit message" (Gift re-opened as #607). Our #462 commit message passes commitlint (checked). #462 is now "dirty" (conflicts with dev after other contributor entries landed): needs dev merged in, normal push.
 - Mela's own PR: zedu-hng #549 (23:09, 6 Oct). Michael's #177 updated and green, waiting lead approval.
 - 10:50: Mela asked everyone (and the user directly) to "update your branch" before she approves. Merged upstream/dev into feat/QZ-002-add-bayode-manuel-contributor, resolved the one-line conflict (kept Michael's entry then ours), merge commit authored by Bayode Manuel, normal push 5b57250. Mela's full Lesson 4 text: max 4 points each, 60 team points to survive, top team wins N50k, each team fires its 10 least productive members; tickets must be pre-vetted by Tifanni (Bigtiffs) then approved on GitHub before work.
+- 11:07: checked Zedu DMs in the seniormanvic419 profile via Chrome: NO DM to Bigtiffs had been sent. Opened a new DM with her (https://zedu.chat/hng-internship/people/01a115d5-6716-7426-a51c-4cb426386a69/019519be-afda-77d6-8670-26e1400f32a2) and typed the ticket message for the user to send. Zedu Enter sends a message (issue #66), so the message was typed on one line. Announcements today: Mfoniso 08:18 "you have until 12pm to submit your task" + Zoom link; Mark 10:03 "call in one hour, today is a critical day". Many interns are chasing Bigtiffs in #general.
 
 ## 6 October 2026 — PRs redone on Mela's instruction
 
