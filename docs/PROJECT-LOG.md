@@ -156,3 +156,8 @@ Kept by Claude Code across sessions. Newest first.
 - Zedu PR rules (from .github/workflows/pr-rules.yml): single author per PR, branch from synced dev, PR to zedu-hng/zedu-fe dev
   from the team repo branch (not a personal fork), claim a QZ-xxx ticket in the group first, tick all 11 template boxes.
 - User rules: ask before any public action; plain paste-ready text, no blockquotes; no Co-Authored-By lines.
+
+## 2026-10-13 17:30 — hourly check
+- Telegram: Vulcan announcement channel posted "Team Guide: Zedu Vulcan — PR Submission Workflow" (Google Doc, 12:40 PM) and HNG resource links (task doc + zedu-contribution-guide, 5:21 PM). PRs ZEDU VULCAN group pinned: Design and Marketing PRs will not be approved for now (not required). Team chat is git-push help between members. Nothing addressed to us.
+- Zedu: announcement (Mark: PRs now go to team instance; leads bundle to staging; Vercel-hosted team versions disqualified), general, premium-vip-lounge, zedu-contributors badges all read and cleared. No new DMs.
+- GitHub: zedu-mobile#200, #199 and zedu-fe#781 still open, unlabelled, unassigned, no comments.
