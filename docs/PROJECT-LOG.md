@@ -337,3 +337,14 @@ Kept by Claude Code across sessions. Newest first.
 - 00:20 routine read pushed (commit 110b7ca) after a DNS blip on github.com cleared.
 - Side fix: Codex broke ~/.codex/config.toml (orphan [mcp_servers.manual_computer.env] at line 140 after a regex delete); removed it, TOML validates, backup kept as config.toml.bak-<ts>.
 - Still waiting: complaint result (Mfoniso), certificate collection details, Mark DM reply. Premium WhatsApp group join not requested yet.
+
+## 2026-11-12 14:10 — routine read (gram + zedu)
+
+- Sheet row 96 (gviz curl): unchanged. C 3, D 2, E 9.5, F 9.8, I 10, J blank, K 0, Total 34.3, Cut-Off 55. No regrade yet.
+- Senior Chrome was not connected; launched Profile 10 myself, extension connected as BM_SENIOR (1f276370), selected it, verified seniormanvic419 via myaccount.google.com.
+- Zedu #announcement: nothing new after Mfoniso 11 Nov 12:10 (complaint status "much later today" still not posted). Pinned: Mark 9:45 AM HNGxUnesco biotech internship Slack invite for people in sciences.
+- Premium lounge, today 12 Nov: Mfoniso 9:20 AM "if you've not been added to the WhatsApp group, send only your number to my DM"; Emmanuel Young 9:43 and michael paul 1:34 PM asked for yesterday's call recording; chinenyeonwuzulike94 9:48 "check your DM"; uriel okafor + 4 others joined 10:11.
+- Mark DM: still only Bayode's 7 Nov 8:19 PM message, no reply.
+- Telegram: Vulcan 2.0 new id 6144 only (forward of the HNGxUnesco biotech post); last read id now 6144. Saint Andrews 7 unread (07:30 Thursday brief, 08:02 + 12:02 Goodluck Chrome not active) relayed to session "Cohort assignment completion (3)". Omnibot 308 (own bot, ignored).
+- User asked why Chrome launches start with about:blank; memory hng15-chrome-profile-senior.md changed to launch straight into the first target URL.
+- Next: keep watching sheet row 96, #announcement, premium lounge, Mark DM. WhatsApp group join still needs the user's explicit go-ahead before any DM to Mfoniso.
