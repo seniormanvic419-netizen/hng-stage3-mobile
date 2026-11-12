@@ -332,3 +332,8 @@ Kept by Claude Code across sessions. Newest first.
 - premium-vip-lounge: an "HNG WhatsApp Group Premium" exists for the products premium members will keep building; Mfoniso adds people who DM their WhatsApp number (victor adeshile, chinenyeonwuzulike94, habeebraji, Daniel Okoroafor all asked 11 Nov evening). Mfoniso 11:37 "It's for the products we'll be working on." Cynthy asked for the 11 Nov call recording. Nothing for Bayode.
 - Mark DM: no reply.
 - Telegram Vulcan 2.0 ids 6141-6143: Beldam7 "Omo", Michael (DBlessed) "For premium users only right", Denise "If we weren't on the call what can we do" (about Mark assigning product tasks on the 11 Nov premium call). Saint Andrews (4) relayed to "Cohort assignment completion (3)".
+
+## 2026-11-12 00:40 — session saved
+- 00:20 routine read pushed (commit 110b7ca) after a DNS blip on github.com cleared.
+- Side fix: Codex broke ~/.codex/config.toml (orphan [mcp_servers.manual_computer.env] at line 140 after a regex delete); removed it, TOML validates, backup kept as config.toml.bak-<ts>.
+- Still waiting: complaint result (Mfoniso), certificate collection details, Mark DM reply. Premium WhatsApp group join not requested yet.
