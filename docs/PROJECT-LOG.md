@@ -348,3 +348,8 @@ Kept by Claude Code across sessions. Newest first.
 - Telegram: Vulcan 2.0 new id 6144 only (forward of the HNGxUnesco biotech post); last read id now 6144. Saint Andrews 7 unread (07:30 Thursday brief, 08:02 + 12:02 Goodluck Chrome not active) relayed to session "Cohort assignment completion (3)". Omnibot 308 (own bot, ignored).
 - User asked why Chrome launches start with about:blank; memory hng15-chrome-profile-senior.md changed to launch straight into the first target URL.
 - Next: keep watching sheet row 96, #announcement, premium lounge, Mark DM. WhatsApp group join still needs the user's explicit go-ahead before any DM to Mfoniso.
+
+## 2026-11-12 14:40 — routine read (gram + zedu)
+
+- Sheet row 96: unchanged (34.3 vs cut-off 55). #announcement: nothing new. Premium lounge: nothing after michael paul 1:34 PM. Mark DM: no reply (only Bayode's 29 Oct, 7 Nov 4:20 PM and 7 Nov 8:19 PM messages). Telegram: no badges on HNG groups or Saint Andrews; Omnibot 310 (own bot).
+- New helper C:\Users\goodb\zedu-agent\tools\senior-chrome.ps1: `open [url]` launches Profile 10 straight into the URL; `close [needle]` closes Chrome windows whose title contains the needle (WM_CLOSE, default "Zedu"), leaving other profiles' windows alone; `list` prints titles. User's rule: when done, close my tab AND the Senior Chrome window.
