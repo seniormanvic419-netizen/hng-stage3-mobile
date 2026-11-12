@@ -324,3 +324,11 @@ Kept by Claude Code across sessions. Newest first.
 - premium-vip-lounge: Cynthy 3:42 asked for today's call recording; oby 3:10 asked product presenters to share product links so people can join teams; others chasing Mfoniso by DM for regrades. Nothing addressed to Bayode.
 - Mark DM: still no reply (0 messages from Mark).
 - Telegram: Vulcan 2.0 nothing after id 6140; no badges on any HNG group. Saint Andrews (4) relayed to session "Cohort assignment completion (3)".
+
+## 2026-11-12 00:20 — routine read (Zedu + Telegram), still no complaint result
+- Chrome was closed; launched the Senior profile myself (`chrome.exe --profile-directory="Profile 10"`), extension connected, read done, tab closed.
+- Finalist sheet row 96 unchanged (34.3, J blank, cut-off 55).
+- #announcement: nothing new. Only a thread reply on Mfoniso's 12:10 "complaint status" post: Chidera Uzoma 6:38 AM asking Mfoniso to check DM.
+- premium-vip-lounge: an "HNG WhatsApp Group Premium" exists for the products premium members will keep building; Mfoniso adds people who DM their WhatsApp number (victor adeshile, chinenyeonwuzulike94, habeebraji, Daniel Okoroafor all asked 11 Nov evening). Mfoniso 11:37 "It's for the products we'll be working on." Cynthy asked for the 11 Nov call recording. Nothing for Bayode.
+- Mark DM: no reply.
+- Telegram Vulcan 2.0 ids 6141-6143: Beldam7 "Omo", Michael (DBlessed) "For premium users only right", Denise "If we weren't on the call what can we do" (about Mark assigning product tasks on the 11 Nov premium call). Saint Andrews (4) relayed to "Cohort assignment completion (3)".
