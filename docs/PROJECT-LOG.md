@@ -361,3 +361,9 @@ Kept by Claude Code across sessions. Newest first.
 - #announcement: nothing new. New thread reply under Mfoniso's certificate post: D-Gen (12 Nov 7:05 PM) asking whether the Lite package qualifies for the premium group/certificate; no answer from Mfoniso yet.
 - Premium lounge: unchanged since 12 Nov 1:34 PM. Mark DM: no reply. Telegram: no badges on HNG groups or Saint Andrews (Saint Andrews last message still 12 Nov "Goodluck Chrome not active"); Omnibot 310.
 - Cleanup: closed my tab, then senior-chrome.ps1 close Zedu.
+
+## 2026-11-13 ~15:40 — session saved
+
+- State: waiting on the regrading complaint result and certificate-collection details. Sheet row 96 = 34.3 vs cut-off 55. Mark DM unanswered since 7 Nov. Premium WhatsApp group: join by DMing a number to Mfoniso, not done, needs the user's go-ahead.
+- Routine now: senior-chrome.ps1 open <url> -> verify seniormanvic419 -> #announcement, premium lounge, Mark DM, Telegram -> close my tab -> senior-chrome.ps1 close Zedu (or "New Tab" if 0 closed) -> log + memory.
+- Zedu re-login if logged out: "Sign in with Google", popup self-completes with the linked account.
