@@ -353,3 +353,11 @@ Kept by Claude Code across sessions. Newest first.
 
 - Sheet row 96: unchanged (34.3 vs cut-off 55). #announcement: nothing new. Premium lounge: nothing after michael paul 1:34 PM. Mark DM: no reply (only Bayode's 29 Oct, 7 Nov 4:20 PM and 7 Nov 8:19 PM messages). Telegram: no badges on HNG groups or Saint Andrews; Omnibot 310 (own bot).
 - New helper C:\Users\goodb\zedu-agent\tools\senior-chrome.ps1: `open [url]` launches Profile 10 straight into the URL; `close [needle]` closes Chrome windows whose title contains the needle (WM_CLOSE, default "Zedu"), leaving other profiles' windows alone; `list` prints titles. User's rule: when done, close my tab AND the Senior Chrome window.
+
+## 2026-11-13 ~15:30 — routine read (gram + zedu)
+
+- Sheet row 96: unchanged (34.3 vs cut-off 55). No regrade.
+- Zedu had logged the Senior account out ("Log in | Zedu"). Clicked "Sign in with Google"; the popup auto-completed with the linked seniormanvic419 account and closed itself (no consent screen, no typing). Tab came back signed in.
+- #announcement: nothing new. New thread reply under Mfoniso's certificate post: D-Gen (12 Nov 7:05 PM) asking whether the Lite package qualifies for the premium group/certificate; no answer from Mfoniso yet.
+- Premium lounge: unchanged since 12 Nov 1:34 PM. Mark DM: no reply. Telegram: no badges on HNG groups or Saint Andrews (Saint Andrews last message still 12 Nov "Goodluck Chrome not active"); Omnibot 310.
+- Cleanup: closed my tab, then senior-chrome.ps1 close Zedu.
