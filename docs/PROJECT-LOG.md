@@ -375,3 +375,7 @@ Kept by Claude Code across sessions. Newest first.
 - 15 Nov 15:35: certificate payment reminder does not apply; Bayode paid Premium N19,000 on 15 Sep 2026 (PalmPay to HNG TECH LTD, Providus) and HNG emailed a Payment Confirmation PDF. No action.
 
 - 15 Nov 15:40: on the user go, sent WhatsApp number to Mfoniso in a new Zedu DM (premium WhatsApp group join). Watch that DM for the add.
+
+## 2026-11-15 ~15:45 — session saved
+
+- State: waiting on regrade (row 96 = 34.3 vs 55), Mark DM reply, Mfoniso WhatsApp group add (number sent 15:36), certificate collection details (Premium already paid 15 Sep). Routine unchanged; use senior-chrome.ps1 only, never the Goodluck browser.
