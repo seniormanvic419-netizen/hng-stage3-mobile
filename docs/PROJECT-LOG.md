@@ -367,3 +367,7 @@ Kept by Claude Code across sessions. Newest first.
 - State: waiting on the regrading complaint result and certificate-collection details. Sheet row 96 = 34.3 vs cut-off 55. Mark DM unanswered since 7 Nov. Premium WhatsApp group: join by DMing a number to Mfoniso, not done, needs the user's go-ahead.
 - Routine now: senior-chrome.ps1 open <url> -> verify seniormanvic419 -> #announcement, premium lounge, Mark DM, Telegram -> close my tab -> senior-chrome.ps1 close Zedu (or "New Tab" if 0 closed) -> log + memory.
 - Zedu re-login if logged out: "Sign in with Google", popup self-completes with the linked account.
+
+## 2026-11-15 ~15:25 — hourly read
+
+- Sheet row 96 unchanged (34.3 vs 55); Mark DM unanswered. NEW: #general 15 Nov 11:05 Jemi certificate reminder, payment required (Premium Plus N19,000 / Lite N9,000, Carbon acct for HNG TECH LIMITED or Stripe links); Bayode to decide. #announcement 15 Nov 9:45 Mark: HNGxUnesco biotech Slack invite (sciences). Premium lounge quiet from Mfoniso. Telegram cleared to 0 (Vulcan 2.0 id 6146 Josh asking who merges Ziki PRs; Saint Andrews relayed; Omnibot bot logs).
