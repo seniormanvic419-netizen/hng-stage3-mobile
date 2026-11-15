@@ -373,3 +373,5 @@ Kept by Claude Code across sessions. Newest first.
 - Sheet row 96 unchanged (34.3 vs 55); Mark DM unanswered. NEW: #general 15 Nov 11:05 Jemi certificate reminder, payment required (Premium Plus N19,000 / Lite N9,000, Carbon acct for HNG TECH LIMITED or Stripe links); Bayode to decide. #announcement 15 Nov 9:45 Mark: HNGxUnesco biotech Slack invite (sciences). Premium lounge quiet from Mfoniso. Telegram cleared to 0 (Vulcan 2.0 id 6146 Josh asking who merges Ziki PRs; Saint Andrews relayed; Omnibot bot logs).
 
 - 15 Nov 15:35: certificate payment reminder does not apply; Bayode paid Premium N19,000 on 15 Sep 2026 (PalmPay to HNG TECH LTD, Providus) and HNG emailed a Payment Confirmation PDF. No action.
+
+- 15 Nov 15:40: on the user go, sent WhatsApp number to Mfoniso in a new Zedu DM (premium WhatsApp group join). Watch that DM for the add.
